@@ -29,7 +29,7 @@ export default function SnippetEditForm({snippet} : SnippetEditFormProps) {
             onChange={handleEditorChange}
             />
             <form action={editSnippetAction}>
-                <button className="p-2 border rounded">Save</button>
+                <button className="pl-2 pt-2 border rounded">Save</button>
             </form>
         </div>
     )
